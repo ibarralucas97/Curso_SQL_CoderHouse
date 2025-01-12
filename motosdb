@@ -58,7 +58,7 @@ CREATE TABLE SEGURO (
     id INT AUTO_INCREMENT PRIMARY KEY,
     id_moto INT NOT NULL,
     compañia VARCHAR(50) NOT NULL,
-    poliza VARCHAR(50) UNIQUE NOT NULL,
+    poliza VARCHAR(50) NOT NULL,
     fecha_inicio DATE NOT NULL,
     fecha_fin DATE NOT NULL,
     tipo_cobertura VARCHAR(50),
